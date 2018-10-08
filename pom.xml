@@ -30,7 +30,7 @@
     <skip.docker.image.push>true</skip.docker.image.push>
 
     <!-- Base image which the application is added to -->
-    <docker.image.base>docker.io/openjdk:8-jre-alpine</docker.image.base>
+    <docker.image.base>docker.io/adoptopenjdk/openjdk11:x86_64-alpine-jdk-11.28-slim</docker.image.base>
     <!-- Name of the image -->
     <docker.image.name>${docker.repository}/${docker.artifactId}:${project.version}</docker.image.name>
     <!-- The address of the MainStreetHub docker registry in ECR. -->
